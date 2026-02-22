@@ -17,9 +17,12 @@ async function bootstrap() {
 
   app.use(helmet());
 
-  const allowedOrigins = process.env.NODE_ENV === 'production'
-    ? [process.env.FRONTEND_URL || 'https://your-production-url.com']
-    : true; // Allow all in dev
+  const allowedOrigins = [
+    'http://localhost:5173',
+    'https://localhost:5173',
+    'https://smart-expense-tracker-lilac.vercel.app',
+    process.env.FRONTEND_URL,
+  ].filter(Boolean) as string[];
 
   app.enableCors({
     origin: allowedOrigins,
