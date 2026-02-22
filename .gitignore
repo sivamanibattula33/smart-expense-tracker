@@ -1,0 +1,12 @@
+# Global ignores
+node_modules/
+.env
+.env.*
+.DS_Store
+
+# Frontend build
+frontend/dist/
+frontend/dist-ssr/
+
+# Backend build
+backend/dist/

@@ -1,0 +1,16 @@
+type,category,amount,notes,date
+INCOME,Salary,30000,Part time internship,2026-02-01
+EXPENSE,Rent,8000,February room rent,2026-02-01
+EXPENSE,Food,250,Lunch outside,2026-02-02
+EXPENSE,Travel,120,Metro recharge,2026-02-03
+EXPENSE,Shopping,1500,Clothes purchase,2026-02-05
+EXPENSE,Bills,750,Electricity bill,2026-02-06
+EXPENSE,Education,2000,Online course subscription,2026-02-07
+EXPENSE,Food,300,Groceries,2026-02-08
+EXPENSE,Health,500,Medical checkup,2026-02-10
+EXPENSE,EMI,2500,Laptop EMI,2026-02-12
+INCOME,Freelance,5000,Website project payment,2026-02-15
+EXPENSE,Travel,600,Bus pass,2026-02-16
+EXPENSE,Food,450,Dinner with friends,2026-02-18
+EXPENSE,Shopping,2200,Mobile accessories,2026-02-20
+EXPENSE,Bills,999,Mobile recharge,2026-02-22
